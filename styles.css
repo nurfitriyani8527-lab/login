@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    backround color: black;
+}
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffffff;
+}
+#login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #750a96;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#gmail-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#gmail {
+    all: unset;
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+#password-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-weight: bold;
+}   
+#password {
+    all: unset;
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
